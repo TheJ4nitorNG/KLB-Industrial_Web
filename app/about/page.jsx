@@ -19,21 +19,21 @@ export default function AboutPage() {
       </section>
 
       {/* LEADERSHIP PROFILE SECTION */}
-      <section className="py-20 px-6 max-w-6xl mx-auto w-full">
+      <section className="py-20 px-6 max-w-6xl mx-auto w-full flex-grow">
         <div className="flex flex-col md:flex-row gap-12 items-start">
           
-          {/* PHOTO INTEGRATION */}
+          {/* PHOTO INTEGRATION (Grayscale filter removed) */}
           <div className="w-full md:w-1/3 shrink-0">
             <img 
               src="/nolan-photo.jpg" 
-              alt="Nolan Campbell" 
-              className="w-full h-auto object-cover border-b-8 border-industrial-orange grayscale hover:grayscale-0 transition-all duration-500 shadow-sm"
+              alt="Nolan Campbell, Principal Technical Authority" 
+              className="w-full h-auto object-cover border-b-8 border-industrial-orange shadow-lg transition-transform duration-500 hover:scale-[1.02]"
             />
           </div>
 
           {/* BIO */}
           <div className="w-full md:w-2/3">
-            <h2 className="text-3xl font-black text-industrial-slate mb-2 uppercase tracking-wide">
+            <h2 className="text-3xl font-black text-industrial-slate mb-2 uppercase tracking-wide leading-tight">
               Nolan Campbell
             </h2>
             <p className="text-industrial-orange font-bold uppercase tracking-widest mb-8 text-sm">
@@ -57,7 +57,7 @@ export default function AboutPage() {
               href="https://www.linkedin.com/in/nolan-campbell" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 border-2 border-industrial-slate hover:bg-industrial-slate hover:text-white text-industrial-slate font-bold py-3 px-6 uppercase tracking-wider transition-colors"
+              className="inline-flex items-center gap-3 border-2 border-industrial-slate hover:bg-industrial-slate hover:text-white text-industrial-slate font-bold py-3 px-6 uppercase tracking-wider transition-colors shadow-sm"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
@@ -69,7 +69,7 @@ export default function AboutPage() {
       </section>
 
       {/* WHY US / TRUST FACTORS */}
-      <section className="bg-white py-20 px-6 border-t border-gray-200">
+      <section className="bg-white py-20 px-6 border-t border-gray-200 mt-12">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-black text-center text-industrial-slate mb-16 uppercase tracking-wide">
             Why Partner With KLB?
@@ -77,7 +77,7 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             
-            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-slate">
+            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-slate shadow-sm">
               <h3 className="text-xl font-bold text-industrial-slate mb-4 uppercase tracking-wide">
                 Forged in High-Risk Ops
               </h3>
@@ -86,7 +86,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-orange">
+            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-orange shadow-sm">
               <h3 className="text-xl font-bold text-industrial-slate mb-4 uppercase tracking-wide">
                 Fiercely Independent
               </h3>
@@ -95,7 +95,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-charcoal">
+            <div className="p-8 bg-industrial-paper border border-gray-200 border-t-4 border-t-industrial-charcoal shadow-sm">
               <h3 className="text-xl font-bold text-industrial-slate mb-4 uppercase tracking-wide">
                 Intentionally Small
               </h3>
