@@ -59,7 +59,7 @@ export default function ProjectsPage() {
               </h2>
               <div className="flex flex-wrap gap-3">
                 <span className="text-xs font-bold uppercase tracking-widest bg-industrial-paper text-industrial-charcoal px-3 py-1.5 border border-gray-200">
-                  Sector: Mining
+                  Sector: Milling
                 </span>
                 <span className="text-xs font-bold uppercase tracking-widest bg-industrial-paper text-industrial-charcoal px-3 py-1.5 border border-gray-200">
                   Type: On-Site Oversight
