@@ -30,7 +30,7 @@ export default function ProjectsPage() {
             <div className="relative group overflow-hidden">
               {/* Added h-64 for mobile to prevent collapsing */}
               <img 
-                src="/klb_before.png" 
+                src="/klb_before.PNG" 
                 alt="Equipment status before replacement" 
                 className="w-full h-64 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             {/* AFTER */}
             <div className="relative group overflow-hidden border-t md:border-t-0 md:border-l border-gray-300">
               <img 
-                src="/klb_after.png" 
+                src="/klb_after.PNG" 
                 alt="Equipment status after replacement completion" 
                 className="w-full h-64 md:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
               />
