@@ -56,7 +56,7 @@ export default function ContactPage() {
           <div className="mt-12 p-6 bg-white border border-gray-200 border-l-8 border-industrial-charcoal shadow-sm">
             <h3 className="font-bold text-industrial-slate uppercase mb-2">Service Area</h3>
             <p className="text-sm leading-relaxed text-industrial-charcoal">
-              We provide remote technical authority globally, and on-site execution oversight across Western Canada and remote high-consequence operational zones.
+              We provide remote technical authority and on-site execution globally and in remote high-consequence operational zones.
             </p>
           </div>
         </div>
