@@ -7,11 +7,11 @@ export default function Home() {
       <section className="bg-industrial-slate text-white py-24 px-6 border-b-8 border-industrial-orange">
         <div className="max-w-5xl mx-auto">
           
-          {/* NEW HERO TEXT LOGO - CENTERED */}
+          {/* NEW HERO TEXT LOGO - CENTERED & INCREASED SIZE */}
           <img 
             src="/KLB-Industrial-Logo-text.png" 
             alt="KLB Industrial Corp" 
-            className="block mx-auto h-12 md:h-16 w-auto mb-10 invert" 
+            className="block mx-auto h-16 md:h-20 w-auto mb-10 invert transition-all" 
           />
 
           <p className="text-industrial-orange font-bold tracking-widest uppercase mb-4">
