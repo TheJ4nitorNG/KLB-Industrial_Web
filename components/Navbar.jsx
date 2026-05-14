@@ -8,12 +8,12 @@ export default function Navbar() {
     <nav className="bg-industrial-slate text-white border-b-4 border-industrial-charcoal sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         
-        {/* LOGO */}
+        {/* LOGO (Now with CSS Invert applied) */}
         <a href="/" className="flex items-center hover:opacity-90 transition-opacity">
           <img 
             src="/KLB-Industrial-Logo-nobg.png" 
             alt="KLB Industrial Corp Logo" 
-            className="h-16 w-auto" 
+            className="h-16 w-auto invert transition-all" 
           />
         </a>
         
