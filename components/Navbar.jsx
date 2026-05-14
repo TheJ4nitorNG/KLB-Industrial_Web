@@ -8,12 +8,13 @@ export default function Navbar() {
     <nav className="bg-industrial-slate text-white border-b-4 border-industrial-charcoal sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         
-        {/* LOGO (Now with CSS Invert applied) */}
+        {/* LOGO (Now with CSS Invert applied and size increased) */}
         <a href="/" className="flex items-center hover:opacity-90 transition-opacity">
           <img 
             src="/KLB-Industrial-Logo-nobg.png" 
             alt="KLB Industrial Corp Logo" 
-            className="h-16 w-auto invert transition-all" 
+            // Size increased from h-16 to h-20
+            className="h-20 w-auto invert transition-all" 
           />
         </a>
         
@@ -47,7 +48,7 @@ export default function Navbar() {
 
       {/* MOBILE DROPDOWN MENU */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-industrial-charcoal border-t border-slate-700 shadow-xl absolute w-full">
+        <div className="md:hidden bg-industrial-charcoal border-t border-slate-700 shadow-xl absolute w-full z-50">
           <div className="flex flex-col px-6 py-6 space-y-6 font-bold uppercase text-sm tracking-widest">
             <a href="/projects" className="block hover:text-industrial-orange">Projects</a>
             <a href="/services" className="block hover:text-industrial-orange">Services</a>
