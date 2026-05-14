@@ -8,12 +8,11 @@ export default function Navbar() {
     <nav className="bg-industrial-slate text-white border-b-4 border-industrial-charcoal sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         
-        {/* LOGO (Now with CSS Invert applied and size increased) */}
+        {/* LOGO BADGE */}
         <a href="/" className="flex items-center hover:opacity-90 transition-opacity">
           <img 
-            src="/KLB-Industrial-Logo-nobg.png" 
-            alt="KLB Industrial Corp Logo" 
-            // Size increased from h-16 to h-20
+            src="/KLB-Industrial-Logo-navbadge.png" 
+            alt="KLB Industrial Corp Badge" 
             className="h-20 w-auto invert transition-all" 
           />
         </a>
